@@ -10,6 +10,10 @@ body{
     background-color: #f5f5f5;
 }
 
+nav * {
+    margin: 10px;
+}
+
 .container{
     width: 90%;
     margin: auto;
@@ -23,7 +27,7 @@ body{
 
 .left-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-template-columns: repeat(auto-fit, minmax(30%, 0.5fr));
     grid-gap: 2rem;
 }
 

@@ -42,6 +42,7 @@ const Main=()=>{
     // set the card and the button back and next and the infos of the pokemon
     return(
         <>
+           
             <div className = "container">
                 <div className = "left-content">
                     <Card pokemon = { data } infoPokemon = { poke => setPokeDex(poke) }/>
