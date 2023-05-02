@@ -3,11 +3,9 @@
 import React from "react";
 import Card from "./Card";
 import Pokeinfo from "./Pokeinfo";
-//import Router from "./Router";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
-//import { Link } from "react-router-dom";
 
 const Main=()=>{
     const [data,setData] = useState([]); // Declare a new state variable, which we'll call "data" (repeat for each but with an other name)
@@ -43,11 +41,8 @@ const Main=()=>{
 
     // set the card and the button back and next and the infos of the pokemon
 
-    //after the return(<> : <Link to = "/"><button className="Button-top" id="Home" onClick=""></button></Link>,
-    //        <Link to = "/about"><button className="Button-top" id="About" onClick=""></button></Link>,
     return(
         <>
-            
             <div className = "container">
                 <div className = "left-content">
                     <Card pokemon = { data } infoPokemon = { poke => setPokeDex(poke) }/>
